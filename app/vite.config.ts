@@ -6,9 +6,12 @@ import { defineConfig } from "vite"
 import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 const isCi = !!process.env.CI
+// GitHub Pages: https://<user>.github.io/<repo>/
+const base = process.env.VITE_BASE_PATH ?? "/"
 
 // https://vite.dev/config/
 export default defineConfig({
+  base,
   plugins: [
     devServer({ entry: "api/boot.ts", exclude: [/^\/(?!api\/).*$/] }),
     ...(isCi ? [] : [inspectAttr()]),

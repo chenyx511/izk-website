@@ -1,6 +1,7 @@
 import { MapPin, Phone, Mail, Printer } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useTemplate } from "@/contexts/TemplateContext";
+import { assetUrl } from "@/lib/asset";
 
 export default function Footer({ content }: { content: Record<string, string> }) {
   const { t } = useTranslation();
@@ -36,7 +37,7 @@ export default function Footer({ content }: { content: Record<string, string> })
         <div className="section-padding max-w-4xl mx-auto">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
             <div className="flex items-center gap-3">
-              <img src="/images/logo.png" alt="IZK" className="h-8 w-auto rounded-sm" />
+              <img src={assetUrl("/images/logo.png")} alt="IZK" className="h-8 w-auto rounded-sm" />
               <div>
                 <span className="text-sm font-medium tracking-wider block" style={{ color: tplt.colors.text }}>{companyName}</span>
                 <span className="text-[10px] font-mono tracking-wider" style={{ color: tplt.colors.textMuted }}>{companyNameEn}</span>
@@ -66,7 +67,7 @@ export default function Footer({ content }: { content: Record<string, string> })
         <div className="section-padding max-w-7xl mx-auto py-8">
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
             <div className="flex items-center gap-4">
-              <img src="/images/logo.png" alt="IZK" className="h-8 w-auto rounded-sm" />
+              <img src={assetUrl("/images/logo.png")} alt="IZK" className="h-8 w-auto rounded-sm" />
               <div>
                 <span className="text-sm font-bold tracking-wider block" style={{ color: tplt.colors.text }}>{companyName}</span>
                 <span className="text-[10px] font-mono tracking-wider" style={{ color: tplt.colors.textMuted }}>{companyNameEn}</span>
@@ -91,7 +92,7 @@ export default function Footer({ content }: { content: Record<string, string> })
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8">
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center gap-3">
-              <img src="/images/logo.png" alt="IZK" className="h-10 w-auto rounded-sm" />
+              <img src={assetUrl("/images/logo.png")} alt="IZK" className="h-10 w-auto rounded-sm" />
               <div>
                 <span className="text-lg font-bold tracking-wider block" style={{ color: tplt.colors.text }}>{companyName}</span>
                 <p className="text-[10px] font-mono tracking-wider" style={{ color: tplt.colors.textMuted }}>{companyNameEn}</p>

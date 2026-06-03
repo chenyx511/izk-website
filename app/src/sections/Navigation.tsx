@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Settings } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useTemplate } from "@/contexts/TemplateContext";
+import { assetUrl } from "@/lib/asset";
 import { useAuth } from "@/hooks/useAuth";
 import { useNavigate, useLocation } from "react-router";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -61,7 +62,7 @@ export default function Navigation() {
       >
         <div className="section-padding flex items-center justify-between h-16 sm:h-20">
           <a href="/#/" className="flex items-center gap-3 group">
-            <img src="/images/logo.png" alt="IZK" className="h-8 w-auto rounded-sm" />
+            <img src={assetUrl("/images/logo.png")} alt="IZK" className="h-8 w-auto rounded-sm" />
             <div className="hidden sm:block">
               <span className="text-sm font-bold tracking-wider block transition-colors" style={{ color: tplt.colors.navText }}>
                 {t("footer.companyName", "和泉金属工業")}
@@ -111,7 +112,7 @@ export default function Navigation() {
           <motion.div className="fixed inset-0 z-40 flex flex-col items-center justify-center gap-8"
             style={{ backgroundColor: tplt.colors.bg + "f0", backdropFilter: "blur(20px)" }}
             initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.3 }}>
-            <img src="/images/logo.png" alt="IZK" className="h-12 w-auto rounded-sm mb-4" />
+            <img src={assetUrl("/images/logo.png")} alt="IZK" className="h-12 w-auto rounded-sm mb-4" />
             {navLinks.map((link, i) => (
               <motion.button key={link.sectionId} onClick={() => scrollToSection(link.sectionId)}
                 className="text-2xl text-center transition-colors hover:opacity-80 bg-transparent border-none cursor-pointer"

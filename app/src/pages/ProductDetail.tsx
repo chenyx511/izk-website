@@ -11,6 +11,7 @@ import { useTemplate } from "@/contexts/TemplateContext";
 import type { StyleVariant } from "@/config/templates";
 import { useState } from "react";
 import { formatDescToHtml } from "@/lib/format-desc";
+import { assetUrl } from "@/lib/asset";
 
 export default function ProductDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -83,7 +84,7 @@ function ProductDetailContent({ product }: { product: import("@/hooks/useSiteDat
             </div>
             <motion.div className="relative flex items-center justify-center" initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.2 }}>
               <div className="w-full max-w-md p-8 flex items-center justify-center" style={{ backgroundColor: t.colors.bg, borderRadius: t.borderRadius, border: `1px solid ${t.colors.border}` }}>
-                <img src={product.detailImage} alt={displayName} className="max-h-64 w-auto object-contain" />
+                <img src={assetUrl(product.detailImage)} alt={displayName} className="max-h-64 w-auto object-contain" />
               </div>
             </motion.div>
           </motion.div>

@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useTemplate } from "@/contexts/TemplateContext";
+import { assetUrl } from "@/lib/asset";
 
 export default function HeroSection({ content }: { content: Record<string, string> }) {
   const { t: _t } = useTranslation();
@@ -13,7 +14,7 @@ export default function HeroSection({ content }: { content: Record<string, strin
   const cta1 = _t("hero.ctaPrimary");
   const cta2 = _t("hero.ctaSecondary");
   // Non-text config from CMS (images)
-  const bgImage = content.hero_bg_image ?? "/images/hero-bg.jpg";
+  const bgImage = assetUrl(content.hero_bg_image ?? "/images/hero-bg.jpg");
 
   // ─── dark-industrial: 全屏背景图 + 暗色overlay ───
   if (templateId === "dark-industrial") {
@@ -175,7 +176,7 @@ function LogoBlock({ t }: { t: { colors: Record<string, string> } }) {
   return (
     <motion.div className="flex items-center gap-3 sm:gap-4"
       initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2, duration: 0.8 }}>
-      <img src="/images/logo.png" alt="IZK" className="h-12 sm:h-14 w-auto rounded-sm" />
+      <img src={assetUrl("/images/logo.png")} alt="IZK" className="h-12 sm:h-14 w-auto rounded-sm" />
       <div>
         <p className="text-sm sm:text-base font-bold tracking-wide" style={{ color: t.colors.text }}>{tr("footer.companyName", "和泉金属工業株式会社")}</p>
         <p className="text-[10px] font-mono tracking-[0.2em]" style={{ color: t.colors.textMuted }}>{tr("footer.companyNameEn", "IZUMI KINZOKU KOGYO CO.,LTD.")}</p>

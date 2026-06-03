@@ -18,6 +18,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { assetUrl } from "@/lib/asset";
 
 type TabId = "content" | "products" | "templates" | "account";
 
@@ -310,7 +311,7 @@ export default function AdminDashboard() {
       <header className="border-b border-white/10 sticky top-0 z-50 bg-[#0A0A0F]/95 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <img src="/images/logo.png" alt="IZK" className="h-8 w-auto rounded-sm" />
+            <img src={assetUrl("/images/logo.png")} alt="IZK" className="h-8 w-auto rounded-sm" />
             <div><h1 className="text-sm font-bold">{t("admin.cms")}</h1><p className="text-[10px] text-gray-500">{t("admin.system")}</p></div>
           </div>
           <div className="flex items-center gap-3">

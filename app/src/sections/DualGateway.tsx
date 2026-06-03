@@ -3,6 +3,7 @@ import { motion, useInView } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useTemplate } from "@/contexts/TemplateContext";
+import { assetUrl } from "@/lib/asset";
 import type { TemplateConfig } from "@/config/templates";
 
 export default function DualGateway({ content }: { content: Record<string, string> }) {
@@ -22,8 +23,8 @@ export default function DualGateway({ content }: { content: Record<string, strin
     recruitDesc: _t("gateway.recruitDesc"),
     recruitCta: _t("gateway.recruitCta"),
     // Images from CMS
-    clientImg: content.gateway_client_image ?? "/images/gateway-client.jpg",
-    recruitImg: content.gateway_recruit_image ?? "/images/gateway-recruit.jpg",
+    clientImg: assetUrl(content.gateway_client_image ?? "/images/gateway-client.jpg"),
+    recruitImg: assetUrl(content.gateway_recruit_image ?? "/images/gateway-recruit.jpg"),
   };
 
   // ─── dark-industrial: 50/50分屏 ───

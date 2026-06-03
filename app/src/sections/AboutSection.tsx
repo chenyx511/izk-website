@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { useTemplate } from "@/contexts/TemplateContext";
+import { assetUrl } from "@/lib/asset";
 
 export default function AboutSection({ content }: { content: Record<string, string> }) {
   const { t: _t } = useTranslation();
@@ -12,7 +13,7 @@ export default function AboutSection({ content }: { content: Record<string, stri
   const title = `${_t("about.title1")} ${_t("about.title2")}`;
   const descRaw = _t("about.description");
   const description = descRaw ? descRaw.split("\n\n") : [];
-  const image = content.about_image ?? "/images/about-factory.jpg";
+  const image = assetUrl(content.about_image ?? "/images/about-factory.jpg");
   const stats = [
     { value: "1953", label: _t("about.stat1Label") },
     { value: "70+", label: _t("about.stat2Label") },

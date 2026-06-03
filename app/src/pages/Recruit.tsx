@@ -8,6 +8,7 @@ import { TemplateProvider } from "@/contexts/TemplateContext";
 import { TemplateStyle } from "@/components/TemplateStyle";
 import { useSettings, useSiteContent } from "@/hooks/useSiteData";
 import type { StyleVariant } from "@/config/templates";
+import { assetUrl } from "@/lib/asset";
 
 export default function RecruitPage() {
   const { data: settings } = useSettings();
@@ -153,7 +154,7 @@ function RecruitContent() {
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             {["/images/gateway-client.jpg", "/images/about-factory.jpg"].map((img, i) => (
               <div key={i} className="w-40 h-28 sm:w-52 sm:h-36 rounded-lg overflow-hidden" style={{ border: "1px solid var(--tpl-border, #2A2A35)" }}>
-                <img src={img} alt="" className="w-full h-full object-cover opacity-70 hover:opacity-100 transition-opacity" />
+                <img src={assetUrl(img)} alt="" className="w-full h-full object-cover opacity-70 hover:opacity-100 transition-opacity" />
               </div>
             ))}
           </div>

@@ -7,6 +7,7 @@ import { LogIn, Eye, EyeOff } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { assetUrl } from "@/lib/asset";
 
 export default function Login() {
   const { t } = useTranslation();
@@ -45,7 +46,7 @@ export default function Login() {
         transition={{ duration: 0.5 }}
       >
         <div className="text-center space-y-4">
-          <img src="/images/logo.png" alt="IZK" className="h-16 w-auto rounded-sm mx-auto" />
+          <img src={assetUrl("/images/logo.png")} alt="IZK" className="h-16 w-auto rounded-sm mx-auto" />
           <div>
             <h1 className="text-xl font-bold text-white">{t("login.title")}</h1>
             <p className="text-sm text-gray-500">{t("login.subtitle")}</p>

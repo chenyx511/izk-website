@@ -3,6 +3,7 @@ import { motion, useInView } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useTemplate } from "@/contexts/TemplateContext";
+import { assetUrl } from "@/lib/asset";
 
 interface Product {
   id: number;
@@ -70,7 +71,7 @@ export default function ProductsSection({ products }: { products: Product[] }) {
                 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: index * 0.1 }}>
                 <div className="relative overflow-hidden" style={{ backgroundColor: t.colors.bgCard, borderRadius: t.borderRadius, boxShadow: t.shadows.card }}>
                   <div className="relative h-48 overflow-hidden">
-                    <img src={product.image} alt={getPName(product, lang)} className="w-full h-full object-contain p-4 bg-gray-50 group-hover:scale-105 transition-transform duration-500" />
+                    <img src={assetUrl(product.image)} alt={getPName(product, lang)} className="w-full h-full object-contain p-4 bg-gray-50 group-hover:scale-105 transition-transform duration-500" />
                   </div>
                   <div className="p-5 space-y-2">
                     <h3 className="text-lg font-bold group-hover:opacity-80 transition-opacity" style={{ color: t.colors.text }}>{getPName(product, lang)}</h3>
@@ -101,7 +102,7 @@ export default function ProductsSection({ products }: { products: Product[] }) {
                 className={`group grid lg:grid-cols-2 gap-8 items-center ${index % 2 === 1 ? "lg:direction-rtl" : ""}`}
                 initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}>
                 <div className={`overflow-hidden ${index % 2 === 1 ? "lg:order-2" : ""}`} style={{ borderRadius: "1.5rem" }}>
-                  <img src={product.image} alt={getPName(product, lang)} className="w-full h-64 sm:h-80 object-contain p-8 transition-transform duration-700 group-hover:scale-105"
+                  <img src={assetUrl(product.image)} alt={getPName(product, lang)} className="w-full h-64 sm:h-80 object-contain p-8 transition-transform duration-700 group-hover:scale-105"
                     style={{ backgroundColor: t.colors.bgCard }} />
                 </div>
                 <div className={`space-y-4 ${index % 2 === 1 ? "lg:order-1 lg:text-right" : ""}`}>
@@ -168,7 +169,7 @@ export default function ProductsSection({ products }: { products: Product[] }) {
                 <h3 className="text-base font-bold mb-1" style={{ color: t.colors.text }}>{getPName(product, lang)}</h3>
                 <p className="text-[9px] font-mono tracking-wider uppercase mb-3" style={{ color: t.colors.primary }}>{product.nameEn}</p>
                 <div className="w-full h-24 mb-3 overflow-hidden" style={{ backgroundColor: "#0a0a0a" }}>
-                  <img src={product.image} alt="" className="w-full h-full object-contain p-2 opacity-80 group-hover:opacity-100 transition-opacity" />
+                  <img src={assetUrl(product.image)} alt="" className="w-full h-full object-contain p-2 opacity-80 group-hover:opacity-100 transition-opacity" />
                 </div>
                 <p className="text-xs leading-relaxed line-clamp-3" style={{ color: t.colors.textMuted }}>{getPDesc(product, lang)}</p>
               </div>
@@ -207,7 +208,7 @@ function ProductCardA({ product, index, t }: { product: Product; index: number; 
       <div className="relative overflow-hidden transition-all duration-500 hover:shadow-xl"
         style={{ backgroundColor: t.colors.bgCard, border: `1px solid ${t.colors.border}`, borderRadius: t.borderRadius, boxShadow: t.shadows.card }}>
         <div className="relative h-52 sm:h-60 overflow-hidden" style={{ backgroundColor: t.colors.bgSecondary }}>
-          <img src={product.image} alt={getPName(product, lang)} className="w-full h-full object-contain p-6 group-hover:scale-105 transition-transform duration-700" />
+          <img src={assetUrl(product.image)} alt={getPName(product, lang)} className="w-full h-full object-contain p-6 group-hover:scale-105 transition-transform duration-700" />
           <div className="absolute inset-0" style={{ background: `linear-gradient(to top, ${t.colors.bgCard}, transparent)` }} />
         </div>
         <div className="p-5 sm:p-6 space-y-3">
