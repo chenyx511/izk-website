@@ -25,8 +25,14 @@ export function TemplateProvider({ children, initialTemplate }: { children: Reac
   );
 }
 
+/** 无 Provider 时回退默认模板（登录页等独立路由） */
 export function useTemplate() {
   const ctx = useContext(TemplateContext);
-  if (!ctx) throw new Error("useTemplate must be used within TemplateProvider");
-  return ctx;
+  if (ctx) return ctx;
+  const templateId = defaultTemplate;
+  return {
+    currentTemplate: templates[templateId],
+    templateId,
+    setTemplate: () => {},
+  };
 }

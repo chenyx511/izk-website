@@ -5,7 +5,10 @@ export function useAuth() {
   const utils = trpc.useUtils();
   const meQuery = trpc.auth.me.useQuery(undefined, {
     retry: false,
-    refetchOnWindowFocus: true,
+    refetchOnWindowFocus: false,
+    // GitHub Pages 无 API，避免长时间 pending
+    staleTime: 60_000,
+    gcTime: 300_000,
   });
 
   const loginMutation = trpc.auth.login.useMutation({

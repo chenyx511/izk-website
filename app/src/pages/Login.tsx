@@ -44,9 +44,8 @@ export default function Login() {
     <div className="min-h-screen flex items-center justify-center bg-[#0A0A0F] px-4">
       <motion.div
         className="w-full max-w-sm space-y-8"
-        initial={{ opacity: 0, y: 20 }}
+        initial={{ opacity: 1, y: 0 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
       >
         <div className="text-center space-y-4">
           <img src={assetUrl("/images/logo.png")} alt="IZK" className="h-16 w-auto rounded-sm mx-auto" />
