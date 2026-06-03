@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { useTemplate } from "@/contexts/TemplateContext";
 import { assetUrl } from "@/lib/asset";
 import { useAuth } from "@/hooks/useAuth";
-import { useNavigate, useLocation } from "react-router";
+import { Link, useNavigate, useLocation } from "react-router";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 export default function Navigation() {
@@ -89,11 +89,13 @@ export default function Navigation() {
               </button>
             ))}
             {user?.role === "admin" && (
-              <a href="/#/admin"
+              <Link
+                to="/admin"
                 className="flex items-center gap-1.5 text-xs px-3 py-1.5 rounded transition-all"
-                style={{ color: tplt.colors.primary, border: `1px solid ${tplt.colors.primary}` }}>
+                style={{ color: tplt.colors.primary, border: `1px solid ${tplt.colors.primary}` }}
+              >
                 <Settings className="w-3.5 h-3.5" />{t("nav.admin")}
-              </a>
+              </Link>
             )}
             <LanguageSwitcher />
           </div>

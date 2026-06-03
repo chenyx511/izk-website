@@ -17,6 +17,9 @@ export default function Login() {
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
+  const isGithubPages =
+    typeof window !== "undefined" &&
+    window.location.hostname.endsWith("github.io");
 
   useEffect(() => {
     if (!isLoading && isAuthenticated && isAdmin) {
@@ -55,6 +58,12 @@ export default function Login() {
             <LanguageSwitcher variant="admin" />
           </div>
         </div>
+
+        {isGithubPages && (
+          <div className="rounded-lg border border-amber-500/40 bg-amber-500/10 px-4 py-3 text-sm text-amber-200/90 leading-relaxed">
+            GitHub Pages 仅提供静态预览，无法连接登录 API。请使用本地或 Render 等完整部署后再登录管理后台。
+          </div>
+        )}
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="space-y-2">

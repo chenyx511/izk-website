@@ -10,8 +10,10 @@
 
 - **源码仓库**：推送至 `chenyx511/izk-website`
 - **GitHub Pages**（仅静态前台预览）：推送 `main` 分支后自动部署  
-  - 地址：`https://chenyx511.github.io/izk-website/`  
-  - 说明：Pages 不含 Node 后端，管理后台与 CMS 需完整部署（见下）
+  - 首页：`https://chenyx511.github.io/izk-website/`  
+  - 管理登录：`https://chenyx511.github.io/izk-website/#/login`（不要用 `/login`，会 404）  
+  - 管理后台：`https://chenyx511.github.io/izk-website/#/admin`  
+  - 说明：Pages **无后端 API**，登录/CMS 在 Pages 上不可用，需完整部署（见下）
 
 ## 完整部署（含管理后台）
 

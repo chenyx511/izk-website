@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <title>跳转中…</title>
+    <script>
+      (function () {
+        var base = "/izk-website";
+        var pathname = location.pathname;
+        var hash = location.hash;
+        if (hash) {
+          location.replace(base + "/" + hash + location.search);
+          return;
+        }
+        if (!pathname.startsWith(base)) {
+          location.replace(base + "/");
+          return;
+        }
+        var rest = pathname.slice(base.length) || "/";
+        if (rest === "/" || rest === "/index.html") {
+          location.replace(base + "/");
+          return;
+        }
+        location.replace(base + "/#" + rest + location.search);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>正在跳转… <a href="/izk-website/">点击这里</a></p>
+  </body>
+</html>

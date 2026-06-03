@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IZUMI CMS</title>
+    <script>
+      (function () {
+        var base = "/izk-website";
+        var pathname = location.pathname;
+        var hash = location.hash;
+        if (hash) return;
+        if (!pathname.startsWith(base)) return;
+        var rest = pathname.slice(base.length) || "/";
+        if (rest === "/" || rest === "/index.html") return;
+        location.replace(base + "/#" + rest + location.search);
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
