@@ -37,11 +37,15 @@ export async function listAdmins() {
 }
 
 export async function createAdminUser(username: string, passwordHash: string) {
-  const [result] = await getDb()
+  const [created] = await getDb()
     .insert(adminUsers)
-    .values({ username, passwordHash });
-  const id = Number(result.insertId);
-  const created = await findAdminById(id);
+    .values({ username, passwordHash })
+    .returning({
+      id: adminUsers.id,
+      username: adminUsers.username,
+      createdAt: adminUsers.createdAt,
+      updatedAt: adminUsers.updatedAt,
+    });
   if (!created) throw new Error("Failed to create admin");
   return created;
 }

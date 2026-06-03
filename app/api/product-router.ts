@@ -40,8 +40,11 @@ export const productRouter = createRouter({
     .input(productPayloadSchema)
     .mutation(async ({ input }) => {
       const db = getDb();
-      const [result] = await db.insert(products).values(payloadToRow(input));
-      return { id: Number(result.insertId), success: true };
+      const [created] = await db
+        .insert(products)
+        .values(payloadToRow(input))
+        .returning({ id: products.id });
+      return { id: created?.id ?? 0, success: true };
     }),
 
   update: authedProcedure

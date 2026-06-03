@@ -6,10 +6,10 @@ import { appRouter } from "./router";
 import { createContext } from "./context";
 import { env } from "./lib/env";
 import { createUploadHandler } from "./lib/upload";
-import { ensureDefaultAdmin } from "./lib/bootstrap";
+import { runBootstrap } from "./lib/bootstrap";
 
-await ensureDefaultAdmin().catch((err) => {
-  console.warn("[bootstrap] Skipped default admin:", err);
+await runBootstrap().catch((err) => {
+  console.warn("[bootstrap] Startup init skipped:", err);
 });
 
 const app = new Hono<{ Bindings: HttpBindings }>();

@@ -11,5 +11,6 @@ function required(name: string): string {
 export const env = {
   appSecret: required("APP_SECRET") || "dev-secret-change-in-production",
   isProduction: process.env.NODE_ENV === "production",
-  databaseUrl: required("DATABASE_URL"),
+  /** 默认 SQLite 文件，无需 MySQL */
+  databaseUrl: process.env.DATABASE_URL || "file:./data/izk.db",
 };

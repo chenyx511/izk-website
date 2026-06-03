@@ -2,9 +2,13 @@
 
 [和泉金属](app/) 企业官网与 CMS，技术栈：React + Vite + Hono + tRPC + MySQL。
 
-## 本地开发
+## 本地开发（无需 MySQL，使用 SQLite 文件）
 
-见 [app/README.md](app/README.md)。
+```bash
+cd app && npm install && npm run db:push && npm run dev
+```
+
+登录 http://localhost:3000/#/login ，账号 **admin / admin**。详见 [app/README.md](app/README.md)。
 
 ## GitHub
 

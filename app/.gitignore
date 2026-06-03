@@ -27,7 +27,8 @@ dist-ssr
 .env.local
 .env.*.local
 # Database
-*.db
+/data/*.db
+/data/*.db-*
 *.sqlite
 *.sqlite3
 db/migrations/*.sql
