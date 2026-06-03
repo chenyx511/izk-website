@@ -6,7 +6,7 @@ services:
     rootDir: app
     buildCommand: npm install && npm run build
     startCommand: npm run start
-    healthCheckPath: /api/trpc/ping
+    healthCheckPath: /
     envVars:
       - key: NODE_ENV
         value: production
