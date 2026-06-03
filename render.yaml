@@ -1,0 +1,16 @@
+# Optional: connect this repo on https://render.com for full-stack deploy (Node + MySQL)
+services:
+  - type: web
+    name: izk-website
+    runtime: node
+    rootDir: app
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    healthCheckPath: /api/trpc/ping
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: APP_SECRET
+        generateValue: true
+      - key: DATABASE_URL
+        sync: false

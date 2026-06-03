@@ -1,0 +1,18 @@
+.DS_Store
+*.log
+
+# App
+app/node_modules/
+app/dist/
+app/.env
+app/.env.local
+app/.env.*.local
+app/coverage/
+app/*.tsbuildinfo
+
+# Uploaded media (keep directory via .gitkeep)
+app/public/uploads/*
+!app/public/uploads/.gitkeep
+
+# Legacy backup (not needed in repo)
+sections-backup/

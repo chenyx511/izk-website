@@ -1,0 +1,405 @@
+{
+  "lang": {
+    "zh": "中文",
+    "ja": "日本語",
+    "en": "English",
+    "ko": "한국어"
+  },
+  "nav": {
+    "products": "Products",
+    "productsEn": "Products",
+    "about": "About",
+    "aboutEn": "About",
+    "careers": "Careers",
+    "careersEn": "Careers",
+    "contact": "CONTACT",
+    "admin": "Admin"
+  },
+  "hero": {
+    "title1": "Grinding Machines &",
+    "title2": "Super Finishers",
+    "subtitle": "IZUMI MACHINE TOOLS",
+    "description": "Izumi Kinzoku Kogyo Co., Ltd. — Making your manufacturing process shine with prompt and meticulous service.",
+    "ctaPrimary": "Products",
+    "ctaSecondary": "Careers",
+    "est": "EST. 1953",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "label": "About Us",
+    "title1": "IZUMI KINZOKU –",
+    "title2": "Grinding the Future",
+    "stat1": "1953",
+    "stat1Label": "Founded",
+    "stat2": "70+",
+    "stat2Label": "Years of Grinding Tech",
+    "stat3": "30+",
+    "stat3Label": "Countries Exported",
+    "description": "Izumi Kinzoku Kogyo Co., Ltd. is a professional manufacturer of high-precision grinding machines and super finishers headquartered in Tondabayashi, Osaka. Since its founding in 1953, we have consistently pursued research and development of grinding technology, providing optimal grinding solutions for customers in a wide range of industries including automotive parts, bearings, and machine tools.\n\nIzumi Kinzoku manufactures energy-saving and sustainable machinery. We also provide overhaul services to help extend the life of existing equipment."
+  },
+  "products": {
+    "label": "Products",
+    "title": "Products",
+    "subtitle": "High-precision, high-rigidity, high-productivity grinding machines and super finishing machines",
+    "detail": "Learn More"
+  },
+  "gateway": {
+    "clientLabel": "For Customers",
+    "clientSlogan": "Make it shine?",
+    "clientTitle": "Making Your Manufacturing Process Shine",
+    "clientDesc": "Compliant with global standards. Leveraging our extensive experience, we can build products tailored to your needs.",
+    "clientCta": "View Products",
+    "recruitLabel": "For Careers",
+    "recruitSlogan": "Want to shine?",
+    "recruitTitle": "Looking for Partners to Create the Future Together",
+    "recruitDesc": "Looking for a career? Be part of the IZK Family. We work as a family. We succeed as a family.",
+    "recruitCta": "View Careers"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Contact Us",
+    "description": "Please feel free to contact us for product inquiries, quotations, or technical consultation.",
+    "cta": "CONTACT US"
+  },
+  "footer": {
+    "companySlogan": "Manufacturer of Precision Grinding & Super Finishing Machines",
+    "company": "Company",
+    "companyItems": [
+      "Company Profile",
+      "CEO Message",
+      "Access"
+    ],
+    "products": "Products",
+    "productItems": [
+      "Internal Grinders",
+      "External Grinders",
+      "Dual Grinders",
+      "Tripod Grinders",
+      "Super Finishers",
+      "Overhaul"
+    ],
+    "careers": "Careers",
+    "careerItems": [
+      "New Graduate",
+      "Mid-Career",
+      "Job Description"
+    ],
+    "privacy": "Privacy Policy",
+    "sitemap": "Sitemap",
+    "copyright": "Copyright 2026 Izumi Kinzoku Kogyo Co.,Ltd. All Rights Reserved."
+  },
+  "productDetail": {
+    "back": "Back to Product List",
+    "tabOverview": "Overview",
+    "tabSpecs": "Specifications",
+    "tabFeatures": "Features",
+    "tabDownloads": "Documents",
+    "overviewTitle": "Product Overview",
+    "specsTitle": "Main Specifications",
+    "featuresTitle": "Key Features",
+    "downloadsTitle": "Document Downloads",
+    "noDownloads": "No documents available for download.",
+    "noDownloadsDesc": "Please contact us and we will provide you with detailed catalogs.",
+    "scopeLabel": "Applications",
+    "items": {
+      "internal-grinders": {
+        "fullDesc": "Internal grinding machines are machine tools for precision grinding of workpiece inner diameter surfaces. IZUMI internal grinders achieve world-class machining accuracy through years of grinding technology expertise and innovative design.\n\n**Key Features**\n・High-rigidity machine structure ensures stable machining accuracy even for fine internal diameter grinding\n・Hydrostatic spindle improves rotational accuracy and durability\n・Various gauge options enable in-line high-precision measurement\n・NC-controlled automation for high productivity\n・Compact design saves space\n\n**Applications**\nAutomotive parts (engine components, transmission parts), bearings (inner rings), hydraulic/pneumatic equipment parts, various industrial machinery parts, and all fields requiring high-precision internal diameter processing.",
+        "features": [
+          {
+            "title": "High-Rigidity Design",
+            "desc": "Special casting structure and carefully selected materials minimize vibration during grinding, achieving high-precision finish surfaces."
+          },
+          {
+            "title": "Hydrostatic Spindle",
+            "desc": "Equipped with proprietary hydrostatic work spindle. Achieves rotational accuracy below 0.1μm and enables stable machining even during long continuous operation."
+          },
+          {
+            "title": "NC Multi-Axis Control",
+            "desc": "X-axis, Z-axis, and spindle tilt angle are NC-controlled. Complex internal surface shapes can be easily set via programming."
+          }
+        ],
+        "scopeLabel": "Applications",
+        "scopeItems": "Automotive parts (engine, transmission), bearings (inner rings), hydraulic/pneumatic parts, industrial machinery parts"
+      },
+      "external-grinders": {
+        "fullDesc": "External grinding machines are machine tools for precision grinding of workpiece outer diameter surfaces. IZUMI external grinders are highly regarded in automotive, aerospace, and precision instrument industries.\n\n**Key Features**\n・CNC full-axis control enables processing of complex outer diameter shapes\n・High-rigidity spindle plunge mechanism ensures stable machining\n・Various automation options (loaders, unloaders, gauges, etc.)\n・Multi-stage machining support for high productivity\n・Environmentally conscious energy-saving design\n\n**Applications**\nShafts, rollers, pins, bearing outer rings, automotive parts (camshafts, crankshafts), various industrial rollers, and all fields requiring high-precision outer diameter processing.",
+        "features": [
+          {
+            "title": "High-Rigidity Spindle",
+            "desc": "Unique bearing arrangement and high-rigidity spindle housing suppress vibration even during heavy cutting."
+          },
+          {
+            "title": "Automation Systems",
+            "desc": "Various automation options available including gantry loaders and magazine-type supply devices."
+          },
+          {
+            "title": "Versatile Measurement",
+            "desc": "Standard-equipped with pre-machining measurement, post-machining measurement, and flag processing functions required for quality control."
+          }
+        ],
+        "scopeLabel": "Applications",
+        "scopeItems": "Shafts, rollers, pins, bearing outer rings, automotive parts (camshafts, crankshafts), industrial rollers"
+      },
+      "dual-grinders": {
+        "fullDesc": "Dual grinding machines are groundbreaking machine tools that can simultaneously grind inner and outer diameters in one chucking. Eliminating chucking errors, they pursue the ultimate coaxiality between inner and outer surfaces.\n\n**Key Features**\n・Simultaneous inner/outer diameter grinding in one chucking with zero chucking error\n・Simultaneously achieves high precision, high efficiency, and labor savings\n・Automatic loading system for labor reduction\n・High-precision measurement possible for both inner and outer surfaces\n・Compact design saves space\n\n**Applications**\nBearings (simultaneous inner/outer ring processing), automotive parts, hydraulic/pneumatic equipment parts, various industrial machinery parts, and precision components requiring coaxiality between inner and outer diameters.",
+        "features": [
+          {
+            "title": "One-Chuck Grinding",
+            "desc": "Simultaneously grinds inner and outer diameters in one chucking. Completely eliminates chucking errors for ultimate coaxial accuracy."
+          },
+          {
+            "title": "Space-Saving Design",
+            "desc": "Integrates two grinders into one unit. Reduces floor space by 40% and contributes to line efficiency."
+          },
+          {
+            "title": "Full Automation",
+            "desc": "Automates all processes from loading to measurement. Enables unmanned day-and-night continuous production."
+          }
+        ],
+        "scopeLabel": "Applications",
+        "scopeItems": "Bearings (simultaneous inner/outer ring processing), automotive parts, hydraulic/pneumatic parts, industrial machinery parts"
+      },
+      "tripod-grinders": {
+        "fullDesc": "Tripod grinders are specialized machine tools for simultaneously grinding the three outer diameter surfaces of tripod rollers used in automotive CVTs and ATs. IZUMI holds the world's top market share in this field.\n\n**Key Features**\n・3-axis simultaneous grinding reduces processing time to 1/3\n・Independent axis control enables subtle dimensional adjustments\n・Dedicated loader enables high-speed workpiece supply\n・In-line measurement for 100% inspection\n・Shape error correction function maintains highest accuracy\n\n**Applications**\nAutomotive CVT/AT tripod rollers, various multi-face outer diameter processing, hydraulic motor rollers, and parts requiring simultaneous high-precision grinding of multiple outer diameter surfaces.",
+        "features": [
+          {
+            "title": "3-Axis Simultaneous Grinding",
+            "desc": "Simultaneously grinds three outer diameters of tripod rollers, significantly reducing processing time."
+          },
+          {
+            "title": "Special Shape Capability",
+            "desc": "Complex outer contours can be freely machined with CNC programs."
+          },
+          {
+            "title": "Auto-Correction Function",
+            "desc": "Automatically corrects based on feedback from measurement devices, always maintaining stable machining accuracy."
+          }
+        ],
+        "scopeLabel": "Applications",
+        "scopeItems": "Automotive CVT/AT tripod rollers, multi-face outer diameter processing, hydraulic motor rollers"
+      },
+      "super-finishing": {
+        "fullDesc": "Super finishing machines are machine tools for further precision finishing of surfaces after grinding. IZUMI super finishers achieve mirror surface finishes with surface roughness below Ra0.01μm through a unique high-speed oscillation mechanism.\n\n**Key Features**\n・Lightweight finishing head oscillates at high speed for stable finished surfaces\n・Mirror surface finishing with surface roughness below Ra0.01μm\n・Stone pattern direction control enables anisotropic finished surfaces\n・Compatible with various workpiece shapes\n・Environmentally conscious energy-saving and low-noise design\n\n**Applications**\nBearings (inner/outer rings), automotive parts (shafts, rollers), hydraulic cylinders, various precision instrument parts, and all fields requiring high surface quality.",
+        "features": [
+          {
+            "title": "High-Speed Oscillating Head",
+            "desc": "Proprietary lightweight oscillating head operates at high speed, forming uniform finished surfaces."
+          },
+          {
+            "title": "Mirror Surface Finish",
+            "desc": "Achieves surface roughness below Ra0.01μm, providing high-precision finish surfaces that can eliminate polishing processes."
+          },
+          {
+            "title": "Anisotropy Capability",
+            "desc": "Freely controls stone pattern direction, also enabling functional anisotropic finished surfaces."
+          }
+        ],
+        "scopeLabel": "Applications",
+        "scopeItems": "Bearings (inner/outer rings), automotive parts (shafts, rollers), hydraulic cylinders, precision instrument parts"
+      }
+    }
+  },
+  "login": {
+    "title": "IZK CMS",
+    "subtitle": "Management System",
+    "username": "Username",
+    "password": "Password",
+    "login": "Login",
+    "loggingIn": "Logging in...",
+    "error": "Invalid username or password",
+    "defaultHint": "Default: admin / admin"
+  },
+  "admin": {
+    "cms": "IZK CMS",
+    "system": "Management System",
+    "home": "Home",
+    "logout": "Logout",
+    "content": {
+      "tab": "Content",
+      "title": "Page Content Management",
+      "hint": "Click edit button to modify section content, supports image upload",
+      "unsaved": "Unsaved changes",
+      "saved": "Saved successfully",
+      "editTitle": "Edit",
+      "save": "Save Changes",
+      "cancel": "Cancel",
+      "saving": "Saving...",
+      "fields": "fields",
+      "hasImage": "With Images",
+      "editBtn": "Edit Content",
+      "preview": "Preview",
+      "sections": {
+        "hero": {
+          "title": "Homepage Hero",
+          "desc": "Title, subtitle, description, background image, button text"
+        },
+        "about": {
+          "title": "About Us",
+          "desc": "Title, description, image, statistics"
+        },
+        "products": {
+          "title": "Products Section",
+          "desc": "Product list title and subtitle"
+        },
+        "gateway": {
+          "title": "Dual Gateway",
+          "desc": "Customer gateway and career gateway content"
+        },
+        "contact": {
+          "title": "Contact",
+          "desc": "Title, description, address, phone, email"
+        },
+        "footer": {
+          "title": "Footer",
+          "desc": "Company name and copyright info"
+        }
+      }
+    },
+    "products": {
+      "tab": "Products",
+      "title": "Product Management",
+      "add": "Add Product",
+      "search": "Search products...",
+      "saved": "Saved successfully",
+      "noData": "No products found",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleteConfirm": "Delete this product? This action cannot be undone.",
+      "specs": "Specs",
+      "features": "Features",
+      "downloads": "Documents",
+      "specCount": "items",
+      "active": "Active",
+      "inactive": "Hidden",
+      "form": {
+        "nameJa": "Product Name (Japanese)",
+        "nameEn": "Product Name (English)",
+        "slug": "URL Slug",
+        "sort": "Sort Order",
+        "imageList": "List Image",
+        "imageDetail": "Detail Image",
+        "shortDesc": "Short Description (List)",
+        "fullDesc": "Full Description",
+        "specsTitle": "Technical Specifications",
+        "addSpec": "Add",
+        "specLabel": "Label",
+        "specValue": "Value",
+        "noSpecs": "No specs yet",
+        "featuresTitle": "Product Features",
+        "addFeature": "Add",
+        "featTitle": "Feature Title",
+        "featDesc": "Feature Description",
+        "noFeatures": "No features yet",
+        "status": "Status",
+        "create": "Create Product",
+        "save": "Save Changes"
+      }
+    },
+    "templates": {
+      "tab": "Templates",
+      "title": "Select Website Template",
+      "hint": "Click a template to preview, confirm to switch",
+      "current": "Current",
+      "confirmTitle": "Confirm Template Switch?",
+      "confirmDesc": "The frontend will immediately apply the new layout and style. This action can be undone at any time.",
+      "cancel": "Cancel",
+      "confirm": "Confirm Switch",
+      "tpl": {
+        "dark-industrial": "Dark Industrial",
+        "clean-corporate": "Clean Corporate",
+        "modern-tech": "Modern Tech",
+        "minimal-white": "Minimal White",
+        "bold-dark": "Bold Dark"
+      }
+    },
+    "account": {
+      "tab": "Account",
+      "title": "Account Settings",
+      "changeLogin": "Change Login Info",
+      "newUsername": "New Username",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password (leave blank to keep)",
+      "confirmPassword": "Confirm New Password",
+      "save": "Save Changes",
+      "saving": "Saving...",
+      "errorMismatch": "New passwords do not match",
+      "errorCurrent": "Current password is incorrect",
+      "errorEmpty": "Please enter current password",
+      "success": "Changes saved!"
+    },
+    "admins": {
+      "createTitle": "Add Administrator",
+      "username": "Username",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "createBtn": "Create Administrator",
+      "listTitle": "Administrators",
+      "current": "Current account",
+      "success": "Administrator created",
+      "errorEmpty": "Please enter username and password",
+      "errorMismatch": "Passwords do not match",
+      "errorExists": "Username already exists",
+      "errorFailed": "Failed to create administrator"
+    }
+  },
+  "specsLabels": {
+    "最大研削内径": "Max Grinding ID",
+    "最大研削深さ": "Max Grinding Depth",
+    "主軸回転数": "Spindle Speed",
+    "ワーク回転数": "Workpiece Speed",
+    "占地面積": "Floor Space",
+    "機械重量": "Machine Weight",
+    "最大研削外径": "Max Grinding OD",
+    "最大研削長さ": "Max Grinding Length",
+    "加工可能外径": "Processable OD",
+    "最大加工長さ": "Max Processing Length",
+    "揺動周波数": "Oscillation Frequency",
+    "表面粗さ": "Surface Roughness"
+  },
+  "recruit": {
+    "pageTitle": "Career Recruitment",
+    "heroTitle": "Career Recruitment",
+    "heroSubtitle": "IZUMI KINZOKU CAREERS",
+    "applyTitle": "How to Apply",
+    "applyDesc": "Please send your resume (with photo) and work history to the following address.",
+    "applySteps": [
+      "Please send your resume (with photo) and work history to the following address.",
+      "We will conduct document screening, and successful candidates will be notified of the next selection process.",
+      "Personal information will be used solely for recruitment purposes and will be kept strictly confidential."
+    ],
+    "positionsTitle": "Open Positions",
+    "positionsDesc": "Currently recruiting for all departments.",
+    "departmentList": [
+      {
+        "name": "Sales Department",
+        "desc": "Technical proposals and after-sales service for domestic and international customers"
+      },
+      {
+        "name": "Design & Development",
+        "desc": "Design and development of new models and improvement of existing models"
+      },
+      {
+        "name": "Manufacturing",
+        "desc": "Assembly, adjustment, and inspection of high-precision grinding machines"
+      },
+      {
+        "name": "Quality Management",
+        "desc": "Building quality assurance systems and quality improvement activities"
+      },
+      {
+        "name": "Administration",
+        "desc": "General affairs, human resources, accounting, and other administrative tasks"
+      }
+    ],
+    "mailingTitle": "Mailing Address",
+    "mailingAddress": "〒584-0022\n2-1-68 Higashi, Tondabayashi, Osaka\nIzumi Kinzoku Kogyo Co., Ltd.",
+    "mailingNote": "※ Please write \"Career Recruitment Application\" in red on the envelope.",
+    "contactTitle": "Contact",
+    "contactDept": "Izumi Kinzoku Kogyo Co., Ltd. Administration Dept.",
+    "contactPerson": "Career Recruitment Officer",
+    "contactTel": "TEL: 0721-26-0211",
+    "contactEmail": "E-Mail: koji.takeda@izk-osaka.com",
+    "workEnvTitle": "Work Environment",
+    "workEnvDesc": "At Izumi Kinzoku, we provide an environment where every employee can grow. Under the careful guidance of senior employees, you can acquire the necessary knowledge and skills."
+  }
+}

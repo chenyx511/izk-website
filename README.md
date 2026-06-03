@@ -1,0 +1,24 @@
+# 和泉金属工業 — 企业官网
+
+[和泉金属](app/) 企业官网与 CMS，技术栈：React + Vite + Hono + tRPC + MySQL。
+
+## 本地开发
+
+见 [app/README.md](app/README.md)。
+
+## GitHub
+
+- **源码仓库**：推送至 `chenyx511/izk-website`
+- **GitHub Pages**（仅静态前台预览）：推送 `main` 分支后自动部署  
+  - 地址：`https://chenyx511.github.io/izk-website/`  
+  - 说明：Pages 不含 Node 后端，管理后台与 CMS 需完整部署（见下）
+
+## 完整部署（含管理后台）
+
+GitHub Pages 无法运行 API 与数据库。推荐：
+
+1. 在 [Render](https://render.com) 连接本仓库，使用根目录 `render.yaml`
+2. 配置 `DATABASE_URL`（Render MySQL 或外部 MySQL）
+3. 执行 `npm run db:push` 与 `npm run db:seed`（Render Shell 或本地连生产库）
+
+也可自建 VPS：`npm run build && npm run start`。

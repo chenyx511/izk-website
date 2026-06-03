@@ -1,0 +1,405 @@
+{
+  "lang": {
+    "zh": "中文",
+    "ja": "日本語",
+    "en": "English",
+    "ko": "한국어"
+  },
+  "nav": {
+    "products": "产品信息",
+    "productsEn": "Products",
+    "about": "公司信息",
+    "aboutEn": "About",
+    "careers": "招聘信息",
+    "careersEn": "Careers",
+    "contact": "联系我们",
+    "admin": "管理"
+  },
+  "hero": {
+    "title1": "磨床与超精机",
+    "title2": "综合制造商",
+    "subtitle": "IZUMI MACHINE TOOLS",
+    "description": "和泉金属工业株式会社 — 以快速、细致的服务回应您的需求，为您的制造流程增光添彩",
+    "ctaPrimary": "产品信息",
+    "ctaSecondary": "招聘信息",
+    "est": "成立于 1953年",
+    "scroll": "滚动"
+  },
+  "about": {
+    "label": "关于我们",
+    "title1": "IZUMI KINZOKU –",
+    "title2": "磨削未来",
+    "stat1": "1953",
+    "stat1Label": "年创立",
+    "stat2": "70+",
+    "stat2Label": "年磨削技术",
+    "stat3": "30+",
+    "stat3Label": "个国家出口",
+    "description": "和泉金属工业株式会社是一家总部位于大阪府富田林市的专业高精度磨床和超精机制造商。自1953年创立以来，一直致力于磨削技术的研究开发，为汽车零部件、轴承、机床等广泛行业的客户提供最佳的磨削解决方案。\n\n和泉金属工业制造节能环保的机械设备。同时，为了使现有设备能够使用更长时间，我们还提供大修等服务。"
+  },
+  "products": {
+    "label": "产品",
+    "title": "产品信息",
+    "subtitle": "追求高精度·高刚性·高生产性的磨床·超精机产品线",
+    "detail": "查看详情"
+  },
+  "gateway": {
+    "clientLabel": "客户",
+    "clientSlogan": "想要闪耀吗？",
+    "clientTitle": "让您的制造流程更加闪耀",
+    "clientDesc": "对应世界规格。凭借丰富的实绩，能够按照您的需求打造产品。",
+    "clientCta": "查看产品信息",
+    "recruitLabel": "招聘",
+    "recruitSlogan": "想要闪耀吗？",
+    "recruitTitle": "寻找共创未来的伙伴",
+    "recruitDesc": "正在招募人才？加入IZK大家庭。我们像家人一样工作，像家人一样成功。",
+    "recruitCta": "查看招聘信息"
+  },
+  "contact": {
+    "label": "联系我们",
+    "title": "联系我们",
+    "description": "如有关于产品的疑问、报价需求、技术咨询等，请随时与我们联系。",
+    "cta": "联系我们"
+  },
+  "footer": {
+    "companySlogan": "高精度磨床·超精机综合制造商",
+    "company": "公司信息",
+    "companyItems": [
+      "公司概要",
+      "总经理致辞",
+      "交通方式"
+    ],
+    "products": "产品系列",
+    "productItems": [
+      "内圆磨床",
+      "外圆磨床",
+      "复合磨床",
+      "三脚架磨床",
+      "超精机",
+      "大修"
+    ],
+    "careers": "招聘信息",
+    "careerItems": [
+      "应届毕业生招聘",
+      "社会招聘",
+      "工作内容"
+    ],
+    "privacy": "隐私政策",
+    "sitemap": "网站地图",
+    "copyright": "Copyright 2026 Izumi Kinzoku Kogyo Co.,Ltd. All Rights Reserved."
+  },
+  "productDetail": {
+    "back": "返回产品列表",
+    "tabOverview": "概要",
+    "tabSpecs": "规格",
+    "tabFeatures": "特点",
+    "tabDownloads": "资料",
+    "overviewTitle": "产品概要",
+    "specsTitle": "主要规格",
+    "featuresTitle": "主要特点",
+    "downloadsTitle": "资料下载",
+    "noDownloads": "目前没有可下载的资料。",
+    "noDownloadsDesc": "如果您联系我们，我们将为您提供详细的产品目录。",
+    "scopeLabel": "适用范围",
+    "items": {
+      "internal-grinders": {
+        "fullDesc": "内圆磨床是用于高精度磨削工件内径表面的工作机械。IZUMI的内圆磨床凭借多年积累的磨削技术和创新设计，实现了世界最高水平的加工精度。\n\n**主要特点**\n・高刚性机械结构，确保微细内径加工也能保持稳定的加工精度\n・采用静压主轴，提高旋转精度和耐久性\n・多种测量器选项，可实现在线高精度测量\n・NC控制实现自动化，提高生产效率\n・紧凑设计，节省空间\n\n**适用范围**\n汽车零部件（发动机零件、变速器零件）、轴承（内圈）、液压・气压设备零件、各种产业机械零件等，所有需要内径高精度加工的领域均可使用。",
+        "features": [
+          {
+            "title": "高刚性设计",
+            "desc": "采用特殊的铸造结构和严选的材料，最大限度地抑制磨削时的振动，实现高精度的精加工面。"
+          },
+          {
+            "title": "静压主轴",
+            "desc": "搭载自主研发的静压工作主轴。实现旋转精度0.1μm以下，可长时间连续稳定运转。"
+          },
+          {
+            "title": "NC全轴控制",
+            "desc": "X轴、Z轴、主轴倾斜角均由NC控制。复杂形状的内面加工也可通过程序轻松设定。"
+          }
+        ],
+        "scopeLabel": "适用范围",
+        "scopeItems": "汽车零部件（发动机零件、变速器零件）、轴承（内圈）、液压・气压设备零件、各种产业机械零件"
+      },
+      "external-grinders": {
+        "fullDesc": "外圆磨床是用于高精度磨削工件外径表面的工作机械。IZUMI的外圆磨床在汽车、航空航天、精密仪器等领域获得高度评价。\n\n**主要特点**\n・CNC全轴控制可加工复杂的外径形状\n・高刚性主轴切入机构实现稳定加工\n・多种自动化选项（装载器、卸载器、测量器等）\n・支持多段加工，实现高生产效率\n・环保节能设计\n\n**适用范围**\n轴类、辊类、销类、轴承外圈、汽车零部件（凸轮轴、曲轴）、各种产业用辊等，所有需要外径高精度加工的领域均可使用。",
+        "features": [
+          {
+            "title": "高刚性主轴",
+            "desc": "采用独特的轴承布局和高刚性主轴壳体，即使在重切削时也能抑制振动。"
+          },
+          {
+            "title": "自动化系统",
+            "desc": "提供龙门装载器、料匣式供给装置等多种自动化选项。"
+          },
+          {
+            "title": "多种测量功能",
+            "desc": "标准配备加工前测量、加工后测量、标记处理等质量管理所需功能。"
+          }
+        ],
+        "scopeLabel": "适用范围",
+        "scopeItems": "轴类、辊类、销类、轴承外圈、汽车零部件（凸轮轴、曲轴）、各种产业用辊"
+      },
+      "dual-grinders": {
+        "fullDesc": "复合磨床是一种划时代的工作机械，可一次卡盘同时磨削内圆和外圆。消除卡盘误差，将内圆与外圆的同轴度追求到极致。\n\n**主要特点**\n・一次卡盘同时磨削内圆外圆，卡盘误差为零\n・同时实现高精度、高效率、省人工\n・自动装载系统实现省人工化\n・内圆外圆均可通过测量器进行高精度测量\n・紧凑设计节省空间\n\n**适用范围**\n轴承（内圈・外圈同时加工）、汽车零部件、液压・气压设备零件、各种产业机械零件等，内圆与外圆同轴度要求高的精密零件加工的最佳选择。",
+        "features": [
+          {
+            "title": "一次卡盘磨削",
+            "desc": "一次卡盘同时磨削内圆和外圆。完全消除卡盘误差，实现最高的同轴精度。"
+          },
+          {
+            "title": "省空间设计",
+            "desc": "将两台磨床整合为一台。减少40%的占地面积，有助于提高生产线效率。"
+          },
+          {
+            "title": "全自动化",
+            "desc": "从装载到测量全工序自动化。可实现无人值守的昼夜连续生产。"
+          }
+        ],
+        "scopeLabel": "适用范围",
+        "scopeItems": "轴承（内圈・外圈同时加工）、汽车零部件、液压・气压设备零件、各种产业机械零件"
+      },
+      "tripod-grinders": {
+        "fullDesc": "三脚磨床是用于同时磨削汽车CVT和AT中使用的三脚滚子三个外径面的专用工作机械。IZUMI在该领域拥有世界最高市场份额。\n\n**主要特点**\n・3轴同时磨削，加工时间缩短至1/3\n・各轴独立控制，可进行微妙的尺寸调整\n・专用装载器实现高速工件供给\n・在线测量实现全数检查\n・形状误差补偿功能保持最高精度\n\n**适用范围**\n汽车用CVT・AT三脚滚子、各种多面体外径加工、液压马达滚子等，需要同时高精度加工多个外径面的零件的最佳选择。",
+        "features": [
+          {
+            "title": "3轴同时磨削",
+            "desc": "同时磨削三脚滚子的三个外径，大幅缩短加工时间。"
+          },
+          {
+            "title": "特殊形状对应",
+            "desc": "复杂的外形轮廓也可通过CNC程序自由加工。"
+          },
+          {
+            "title": "自动补偿功能",
+            "desc": "根据测量器的反馈自动进行补偿，始终保持稳定的加工精度。"
+          }
+        ],
+        "scopeLabel": "适用范围",
+        "scopeItems": "汽车用CVT・AT三脚滚子、各种多面体外径加工、液压马达滚子"
+      },
+      "super-finishing": {
+        "fullDesc": "超精机是在磨削加工后进一步精密精加工表面的工作机械。IZUMI的超精机通过独特的高速摆动机构，实现了表面粗糙度Ra0.01μm以下的镜面精加工。\n\n**主要特点**\n・轻量化的精加工头高速摆动，实现稳定的精加工面\n・可实现表面粗糙度Ra0.01μm以下的镜面精加工\n・通过石纹方向控制，也可对应各向异性的精加工面\n・可对应多种工件形状\n・环保节能・低噪音设计\n\n**适用范围**\n轴承（内圈・外圈）、汽车零部件（轴・辊）、液压缸、各种精密仪器零件等，所有要求高表面品质的领域均可使用。",
+        "features": [
+          {
+            "title": "高速摆动头",
+            "desc": "轻量化独特设计的摆动头高速运转，形成均匀的精加工面。"
+          },
+          {
+            "title": "镜面精加工",
+            "desc": "达到表面粗糙度Ra0.01μm以下，提供可省略研磨工序的高精细精加工面。"
+          },
+          {
+            "title": "各向异性对应",
+            "desc": "可自由控制石纹方向，也可实现具有各向异性的功能性精加工面。"
+          }
+        ],
+        "scopeLabel": "适用范围",
+        "scopeItems": "轴承（内圈・外圈）、汽车零部件（轴・辊）、液压缸、各种精密仪器零件"
+      }
+    }
+  },
+  "login": {
+    "title": "IZK CMS",
+    "subtitle": "后台管理系统",
+    "username": "用户名",
+    "password": "密码",
+    "login": "登录",
+    "loggingIn": "登录中...",
+    "error": "用户名或密码错误",
+    "defaultHint": "默认: admin / admin"
+  },
+  "admin": {
+    "cms": "IZK CMS",
+    "system": "内容管理系统",
+    "home": "首页",
+    "logout": "退出",
+    "content": {
+      "tab": "内容管理",
+      "title": "页面内容管理",
+      "hint": "点击编辑按钮修改各区块内容，支持图片上传",
+      "unsaved": "有未保存的修改",
+      "saved": "内容已保存",
+      "editTitle": "编辑",
+      "save": "保存修改",
+      "cancel": "取消",
+      "saving": "保存中...",
+      "fields": "个字段",
+      "hasImage": "含图片",
+      "editBtn": "编辑内容",
+      "preview": "预览",
+      "sections": {
+        "hero": {
+          "title": "首页 Hero",
+          "desc": "主标题、副标题、描述、背景图、按钮文字"
+        },
+        "about": {
+          "title": "关于我们",
+          "desc": "标题、描述、图片、统计数据"
+        },
+        "products": {
+          "title": "产品区块",
+          "desc": "产品列表标题和副标题"
+        },
+        "gateway": {
+          "title": "双入口",
+          "desc": "客户入口和招聘入口的内容"
+        },
+        "contact": {
+          "title": "联系方式",
+          "desc": "标题、描述、地址、电话、邮箱"
+        },
+        "footer": {
+          "title": "页脚",
+          "desc": "公司名和版权信息"
+        }
+      }
+    },
+    "products": {
+      "tab": "产品管理",
+      "title": "产品管理",
+      "add": "新增产品",
+      "search": "搜索产品...",
+      "saved": "保存成功",
+      "noData": "没有找到产品",
+      "edit": "编辑",
+      "delete": "删除",
+      "deleteConfirm": "确定要删除此产品吗？此操作无法撤销。",
+      "specs": "规格",
+      "features": "特点",
+      "downloads": "资料",
+      "specCount": "项",
+      "active": "显示中",
+      "inactive": "已隐藏",
+      "form": {
+        "nameJa": "产品名称（日文）",
+        "nameEn": "产品名称（英文）",
+        "slug": "URL标识（slug）",
+        "sort": "排序",
+        "imageList": "列表图",
+        "imageDetail": "详情页主图",
+        "shortDesc": "简短描述（列表页）",
+        "fullDesc": "详细描述",
+        "specsTitle": "技术规格",
+        "addSpec": "添加",
+        "specLabel": "项目名",
+        "specValue": "数值",
+        "noSpecs": "暂无规格",
+        "featuresTitle": "产品特点",
+        "addFeature": "添加",
+        "featTitle": "特点标题",
+        "featDesc": "特点描述",
+        "noFeatures": "暂无特点",
+        "status": "状态",
+        "create": "创建产品",
+        "save": "保存修改"
+      }
+    },
+    "templates": {
+      "tab": "模板选择",
+      "title": "选择网站模板",
+      "hint": "点击模板预览，确认后切换",
+      "current": "当前使用",
+      "confirmTitle": "确认切换模板？",
+      "confirmDesc": "切换后前台页面将立即应用新的布局和风格。此操作可随时撤销。",
+      "cancel": "取消",
+      "confirm": "确认切换",
+      "tpl": {
+        "dark-industrial": "深色工业",
+        "clean-corporate": "简约企业",
+        "modern-tech": "现代科技",
+        "minimal-white": "极简白调",
+        "bold-dark": "Bold暗色"
+      }
+    },
+    "account": {
+      "tab": "账号设置",
+      "title": "账号设置",
+      "changeLogin": "修改登录信息",
+      "newUsername": "新用户名",
+      "currentPassword": "当前密码",
+      "newPassword": "新密码（留空则不修改）",
+      "confirmPassword": "确认新密码",
+      "save": "保存修改",
+      "saving": "保存中...",
+      "errorMismatch": "新密码和确认密码不一致",
+      "errorCurrent": "当前密码错误",
+      "errorEmpty": "请输入当前密码",
+      "success": "修改成功！"
+    },
+    "admins": {
+      "createTitle": "新增管理员",
+      "username": "用户名",
+      "password": "密码",
+      "confirmPassword": "确认密码",
+      "createBtn": "创建管理员",
+      "listTitle": "管理员列表",
+      "current": "当前账号",
+      "success": "管理员已创建",
+      "errorEmpty": "请填写用户名和密码",
+      "errorMismatch": "两次密码不一致",
+      "errorExists": "用户名已存在",
+      "errorFailed": "创建失败，请重试"
+    }
+  },
+  "specsLabels": {
+    "最大研削内径": "最大磨削内径",
+    "最大研削深さ": "最大磨削深度",
+    "主軸回転数": "主轴转速",
+    "ワーク回転数": "工件转速",
+    "占地面積": "占地面积",
+    "機械重量": "机器重量",
+    "最大研削外径": "最大磨削外径",
+    "最大研削長さ": "最大磨削长度",
+    "加工可能外径": "可加工外径",
+    "最大加工長さ": "最大加工长度",
+    "揺動周波数": "摆动频率",
+    "表面粗さ": "表面粗糙度"
+  },
+  "recruit": {
+    "pageTitle": "社会招聘 – Career Recruitment",
+    "heroTitle": "社会招聘",
+    "heroSubtitle": "IZUMI KINZOKU CAREERS",
+    "applyTitle": "应聘方式",
+    "applyDesc": "请将简历（附照片）及职务经历书寄送至以下地址。",
+    "applySteps": [
+      "请将简历（附照片）及职务经历书寄送至以下地址。",
+      "我们将进行书面审查，合格者将收到下次审查的通知。",
+      "个人信息仅用于招聘活动，严格保密。"
+    ],
+    "positionsTitle": "招聘岗位",
+    "positionsDesc": "现正在所有部门招聘中。",
+    "departmentList": [
+      {
+        "name": "营业部",
+        "desc": "向国内外客户进行技术提案和售后服务"
+      },
+      {
+        "name": "设计开发部",
+        "desc": "新机型的设计・开发与现有机型的改良"
+      },
+      {
+        "name": "制造部",
+        "desc": "高精度磨床的组装・调整・检查"
+      },
+      {
+        "name": "品质管理部",
+        "desc": "构建质量保证体系与品质提升活动"
+      },
+      {
+        "name": "管理部",
+        "desc": "总务・人事・财务等管理业务"
+      }
+    ],
+    "mailingTitle": "邮寄地址",
+    "mailingAddress": "〒584-0022\n大阪府富田林市中野町东2丁目1-68\n和泉金属工业株式会社",
+    "mailingNote": "※ 请在信封上用红笔注明「社会招聘 应聘」。",
+    "contactTitle": "联系方式",
+    "contactDept": "和泉金属工业株式会社 管理部",
+    "contactPerson": "社会招聘负责人",
+    "contactTel": "TEL：0721-26-0211",
+    "contactEmail": "E-Mail: koji.takeda@izk-osaka.com",
+    "workEnvTitle": "工作环境",
+    "workEnvDesc": "和泉金属工业为每位员工提供成长环境。在前辈员工的悉心指导下，您可以掌握所需的知识和技术。"
+  }
+}
